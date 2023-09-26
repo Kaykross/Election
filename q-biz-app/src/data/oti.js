@@ -1,0 +1,68 @@
+const dambai = [
+  {
+    region: "Oti",
+    district: "Jasikan",
+    capital: "Jasikan",
+    constituency: "Buem",
+    code: "L0101 ",
+    created: "",
+  },
+  {
+    region: "Oti",
+    district: "Biakoye",
+    capital: "Nkonya Ahenkro",
+    constituency: "Biakoye",
+    code: "L0201 ",
+    created: "",
+  },
+  {
+    region: "Oti",
+    district: "Kadjebi",
+    capital: "Kadjebi",
+    constituency: "Akan",
+    code: "L0301 ",
+    created: "",
+  },
+  {
+    region: "Oti",
+    district: "Krachi East Municipal",
+    capital: "Dambai",
+    constituency: "Krachi East",
+    code: "L0401 ",
+    created: "",
+  },
+  {
+    region: "Oti",
+    district: "Krachi West",
+    capital: "Kete Krachi",
+    constituency: "Krachi West",
+    code: "L0501 ",
+    created: "",
+  },
+  {
+    region: "Oti",
+    district: "Krachi Nchumuru",
+    capital: "Chinderi",
+    constituency: "Krachi Nchumuru",
+    code: "L0601 ",
+    created: "",
+  },
+  {
+    region: "Oti",
+    district: "Nkwanta South Municipal",
+    capital: "Nkwanta",
+    constituency: "Nkwanta South",
+    code: "L0701 ",
+    created: "",
+  },
+  {
+    region: "Oti",
+    district: "Nkwanta North",
+    capital: "Kpassa",
+    constituency: "Nkwanta North",
+    code: "L0801 ",
+    created: "",
+  },
+];
+
+export { dambai };

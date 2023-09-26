@@ -1,0 +1,60 @@
+const damongo = [
+  {
+    region: "Savannah",
+    district: "Bole",
+    capital: "Bole",
+    constituency: "Bole-Bamboi",
+    code: "N0101",
+    created: "",
+  },
+  {
+    region: "Savannah",
+    district: "Sawla-Tuna-Kalba",
+    capital: "Sawla",
+    constituency: "Sawla-Tuna-Kalba",
+    code: "N0201",
+    created: "",
+  },
+  {
+    region: "Savannah",
+    district: "West Gonja Municipal",
+    capital: "Damongo",
+    constituency: "Damongo",
+    code: "N0301",
+    created: "",
+  },
+  {
+    region: "Savannah",
+    district: "North Gonja",
+    capital: "Daboya",
+    constituency: "Daboya-Mankarigu",
+    code: "N0401",
+    created: "",
+  },
+  {
+    region: "Savannah",
+    district: "Central Gonja",
+    capital: "Buipe",
+    constituency: "Yapei-Kusawgu",
+    code: "N0501",
+    created: "",
+  },
+  {
+    region: "Savannah",
+    district: "East Gonja Municipal",
+    capital: "Salaga",
+    constituency: "Salaga South",
+    code: "N0601",
+    created: "",
+  },
+  {
+    region: "Savannah",
+    district: "North East Gonja",
+    capital: "Kpalbe",
+    constituency: "Salaga North",
+    code: "N0701",
+    created: "",
+  },
+];
+
+export { damongo };

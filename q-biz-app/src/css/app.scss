@@ -1,0 +1,150 @@
+// app global css in SCSS form
+html,
+html::before,
+html::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: gainsboro;
+}
+
+.bg-gainsboro {
+  background-color: gainsboro;
+}
+.bg-brand {
+  background-color: rgb(63, 63, 97);
+}
+.bg-milk-brand {
+  background-color: rgba(63, 63, 97, 0.3) !important;
+}
+.bg-milk-green {
+  background-color: rgb(215, 241, 215);
+}
+.bg-brand-subnav {
+  background-color: rgba(242, 242, 253, 0.8) !important;
+}
+
+.text-gainsboro {
+  color: gainsboro;
+}
+.my-br-5 {
+  border-radius: 5px;
+}
+
+.app-container {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  width: 80vw;
+  margin: 0 auto;
+  overflow-y: hidden;
+}
+.nav-container {
+  position: absolute;
+  margin-left: 0px;
+  height: 100%;
+  width: 250px;
+  opacity: 1;
+  visibility: visible;
+  background-color: rgb(63, 63, 97);
+  &.toggleLeftDrawer {
+    margin-left: -250px !important;
+    opacity: 0;
+    visibility: 0;
+  }
+  transition: all 0.5s ease-in-out;
+
+  .text-caption {
+    color: gray;
+  }
+}
+.main-container {
+  min-width: calc(100% - 250px);
+  min-height: 100%;
+  width: 100%;
+  background-color: rgb(215, 241, 215);
+  margin-left: 250px;
+  transition: all 0.5s ease-in-out;
+  &.toggleMainPage {
+    margin-left: 0px;
+  }
+}
+.bg-logo {
+  background-color: rgb(252, 250, 250);
+}
+.bg-form {
+  background-color: rgb(15, 15, 112);
+}
+.my-form-container {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.active-expand {
+  border-right: 2px solid orange !important;
+  border-left: 2px solid orange !important;
+  //   transform: scale(0.998);
+  transition: all 0.1s;
+}
+
+.q-ba {
+  border-bottom: 1px solid rgb(63, 63, 97);
+}
+.input-field-negative {
+  border-bottom: 1px solid red !important;
+  background-color: rgba(234, 178, 178, 1) !important;
+  // box-shadow: 0 0 0 1000px rgba(234, 178, 178, 1) inset !important;
+  transition: all 1s;
+}
+
+.input-negative {
+  border-bottom: 2px solid red !important;
+  background-color: rgba(234, 178, 178, 1) !important;
+  box-shadow: 0 0 0 1000px rgba(234, 178, 178, 1) inset !important;
+  transition: all 1s;
+}
+// .input-field-negative:hover,
+// .input-negative:hover {
+//   transition: all 5s ease-in-out;
+//   transition-property: background-color !important;
+//   background-color: rgba(222, 169, 169, 1) !important;
+// }
+
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// input:-webkit-autofill:active {
+//   transition: background-color 5s ease-in-out 0s !important;
+// }
+// input[data-autocompleted] {
+//   background-color: transparent !important;
+// }
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// input:-webkit-autofill:active {
+//   box-shadow: 0 0 0 1000px rgb(242, 242, 242) inset;
+//   transition: all 5s ease-in-out;
+//   transition: background-color;
+//   border-bottom: 1px solid gray;
+// }
+
+// .input-group .q-field__inner {
+//   box-shadow: none !important;
+//   transition: all 5s ease-in-out;
+//   transition: background-color;
+//   border-bottom: 2px solid red !important;
+// }
+// .input-group .q-field__inner:hover {
+//   transition: all 5s ease-in-out;
+//   transition-property: background-color;
+//   background-color: rgba(222, 169, 169, 1) !important;
+// }
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
